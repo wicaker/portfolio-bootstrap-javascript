@@ -1,0 +1,104 @@
+html{
+    height: 100%;
+}
+
+/*body*/
+#bg-image{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
+    url(../img/background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* btn */
+.btn-nav{
+    position: fixed;
+    z-index: 3;
+    right: 35px;
+    top: 35px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.btn-line{
+    width: 28px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background: white;
+    transition: all 0.5s ease-out;
+}
+
+
+/* menu */
+#menu{
+    position: fixed;
+    display: inline-block;
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one 🙂       */
+    z-index: 1;
+    visibility: hidden;
+}
+.left{ 
+    background: rgba(0, 0,0,0.4);
+}
+
+.right{
+    background: rgba(0, 0,0,0.9);
+}
+
+.left,.right{
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one 🙂       */
+    display: inline-block;
+    text-align: center;
+    display:flex;
+    align-items:center;
+}
+
+a:hover{
+    color: yellow;
+}
+
+/* Main */
+.main{
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    display:flex;
+    align-items:center;
+}
+
+i:hover{
+    color: yellow;
+}
+
+@media screen and (min-width: 435px) {
+    .lg-heading{
+        font-size: 6rem;
+    }
+    .sm-heading{
+        font-size: 2rem;
+    }
+}
+
+.content{
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one 🙂       */
+    margin: 50px auto;
+}
+
+/*Area Footer*/
+.footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:40px;
+}

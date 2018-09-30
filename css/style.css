@@ -1,0 +1,37 @@
+html{
+    position:static; 
+    min-height: 100%;
+  }
+/*Normalize html and body elements,this style is just good to have*/
+html,body{
+    margin:0;
+    padding:0;
+}
+
+.content{
+    margin-top: 50px;
+    min-height: 100%;
+}
+
+.bg-brigthness{
+    background: #404040;
+}
+
+.bg-darkess{
+    background: #333333;
+}
+
+/*Area Footer*/
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:50px;
+    background:#000000;
+}
+
+footer p{
+	color: #aaa;
+	font-size: 1em;
+}

@@ -48,15 +48,17 @@ html{
     min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
     min-height: 100vh; /* These two lines are counted as one 🙂       */
     z-index: 1;
-    visibility: hidden;
 }
 .left{ 
     background: rgba(0, 0,0,0.4);
+    visibility: hidden;
+
 }
 
 .right{
     background: rgba(0, 0,0,0.9);
     font-size: 50px;
+    visibility: hidden;
 }
 
 .left,.right{
@@ -71,6 +73,10 @@ html{
 a:hover{
     color: yellow;
     text-decoration: none;
+}
+
+.item{
+    position: relative;
 }
 
 

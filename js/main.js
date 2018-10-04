@@ -68,3 +68,4 @@ if(document.body.clientWidth < 576){
     document.querySelector('.lg-heading').style.fontSize="4rem";
     document.querySelector('.sm-heading').style.fontSize="2rem";
 }
+
